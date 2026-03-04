@@ -6,7 +6,7 @@ Windows 内核态调用用户态函数的 C++14 Header-Only 工具库。
 
 - 从内核态安全调用用户态函数
 - Header-Only 设计，无需额外编译，无stl依赖，process.h功能需要自己实现!
-- 使用KeAllocateCalloutStack&KeFreeCalloutStack替代未文档化的MmCreateKernelStack&MmDeleteKernelStack
+- 使用未文档化的KeAllocateCalloutStack&KeFreeCalloutStack替代未导出的MmCreateKernelStack&MmDeleteKernelStack
 - 支持最多个参数传递
 - 自动管理 APC 状态和内核栈
 - 符合 x64 calling convention
