@@ -39,3 +39,8 @@ auto result = kernel_calluser::call_usermode_function(
     arg3,  // 参数3
     arg4   // 参数4
 );
+
+## 鸣谢
+DoubleCall项目提供的思路以及KernelDwm项目提供的Kva兼容支持:
+https://github.com/wbaby/DoubleCallBack
+https://github.com/cs1ime/KernelDwm
